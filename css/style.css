@@ -25,5 +25,48 @@ nav ul{
     gap: 20px;
 }
 .logo h1, nav ul li a{
+    color: #F9FAF8;
+}
+.logo h1{
+    font-size: 24px;
+}
+.cover{
+    padding: 80px 0px;
+    background-color: #1F2937;
+
+}
+.coverText, .coverImg{
+    width: 50%;
     color: white;
 }
+.coverText{
+    padding-right: 50px;
+}
+.coverText h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.coverText p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.coverText button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+.coverImg{
+    background-color: grey;
+    height: 218px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    line-height: 218px;
+    text-align: center;
+}
+
