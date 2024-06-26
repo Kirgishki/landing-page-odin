@@ -74,6 +74,7 @@ nav ul{
 }
 #information{
     margin-top: 40px;
+    margin-bottom: 40px;
     flex-wrap: wrap;
 }
 #information h2{
@@ -103,3 +104,23 @@ nav ul{
     text-align: center;
 }
 
+.container {
+    background-color: rgb(223, 211, 211);
+    padding: 50px 60px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 34px;
+}
+
+.quoteText {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.quoteText p:last-child{
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+}
