@@ -124,3 +124,39 @@ nav ul{
     font-weight: 700;
     font-size: 24px;
 }
+
+.signupContainer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signupModul{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px 70px;
+}
+
+.signupModul p {
+    color: white;
+    font-size: 14px;
+}
+
+.signupModul p:first-child{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.signupModul button {
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border: solid 2px white;
+    border-radius: 5px;
+    align-self: flex-end;
+    color: white;
+}
