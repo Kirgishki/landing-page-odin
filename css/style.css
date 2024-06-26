@@ -126,7 +126,7 @@ nav ul{
 }
 
 .signupContainer {
-    padding: 50px;
+    padding: 100px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,5 +158,17 @@ nav ul{
     border: solid 2px white;
     border-radius: 5px;
     align-self: flex-end;
+    color: white;
+}
+
+footer{
+    background-color: #1F2937;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
     color: white;
 }
